@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- ========= Meta =========== -->
+        <meta name="author" content="Diego Heredia">
+        <meta property="og:title" content="Grúas Tonatiuh">
+        <meta property="og:description" content="el mejor servicio de grúas de arrastre.">
+        <meta name="keywords"
+            content="GRÚA. GRÚA URGENTE, GRUÁS LAS 24HRS, MANIOBRAS ESPECIALES, MAQUINARIA, TRASLADOS, CONFIANZA, PLATAFORMA, GRUA PARA COCHES, HIAB, LLAMANOS Y TE COTIZAMOS, MAQUINARIA LIGERA, MAQUINARIA PESADA, MONTACARGAS, RETROEXCAVADORA, MINICARGADOR, ELEVADOR, GENIE, GRUA FORANEA, GRUA LOCAL, TORTON PLATAFORMA">
+        <meta property="og:image" content="./assets/images/Logo.png">
+        <!-- <meta property="og:url" content="http://diego-freelance.web.app"> -->
+        <title>Grúas Tonatiuh</title>
+        <!-- ========= Meta =========== -->
+    
+        <!-- ========= Icono =========== -->
+        <link rel="shortcut icon" href="../assets/images/Logo.png" />
+        <!-- ========= Icono =========== -->
+        <!-- google-fonts -->
+        <link
+            href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Teko:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <!-- //google-fonts -->
+        <!-- Font-Awesome-Icons-CSS -->
+        <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+        <!-- Main CSS  -->
+        <link rel="stylesheet" href="./assets/css/style-starter.css">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    
+    </head>
+    
+    <body>
+        <!--header-->
+        <header id="site-header" class="fixed-top">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg stroke">
+                    <h1>
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="./assets/images/Logo.png" id="logo" alt=""> </a>
+                    </h1>
+                    <!-- if logo is image enable this   
+        <a class="navbar-brand" href="#index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+        </a> -->
+                    <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-lg-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                            <!-- search button -->
+                            <div class="search-right ml-lg-3">
+                                <form action="#search" method="GET" class="search-box position-relative">
+                                    <div class="input-search">
+                                        <input type="text" placeholder="Palabras clave.." id="search" name="search"
+                                            required="required" autofocus="" class="search-popup" list="keyw">
+                                        <datalist id="keyw">
+                                            <option value="Grúas"></option>
+                                            <option value="Transporte"></option>
+                                            <option value="Salvamiento"></option>
+                                            <option value="Maniobras"></option>
+                                        </datalist>
+    
+                                    </div>
+                                    <button type="button" onclick="lo();" id="bb" class="btn search-btn"><i
+                                            class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                            <!-- //search button -->
+                        </ul>
+                    </div>
+                    <!-- toggle switch for light and dark theme -->
+                    <div class="cont-ser-position">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Socials -->
+                    <a href="https://api.whatsapp.com/send?phone=+525525384007&text=Me%20gustaria%20obtener%20mas%20informacion%20sobre%20las%20gr%C3%BAas"
+                        class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a><span
+                        class="text-w">Cotiza Ya!!!</span>
+                    <div class="social-bar">
+                        <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+    
+    
+                        <a href="https://www.instagram.com/" class="icon icon-instagram" id="insta" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Socials -->
+    
+                    <!-- //toggle switch for light and dark theme -->
+                </nav>
+            </div>
+        </header>
+        <!--//header-->
+
+    <!-- inner banner -->
+    <div class="inner-banner">
+        <div class="w3l-breadcrumb">
+            <div class="container">
+                <h4 class="inner-text-title font-weight-bold mb-2">Servicios</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Servicios
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //inner banner -->
+
+    <!-- services section -->
+    <section class="w3l-bottom-grids-6 py-5" id="services">
+        <div class="container py-md-5 py-4">
+            <div class="title-main text-center mx-auto mb-5" style="max-width:600px;">
+                <p class="mt-2">Nuestros Servicios</p>
+                <h3 class="title-style">El mejor servicio de <span>grúas</span> de arrastre y salvamento</h3>
+            </div>
+            <div class="row pt-md-4">
+                <div class="col-lg-4 col-md-6 grids-feature">
+                    <div class="area-box">
+                        <img class="img-fluid" src="./assets/images/img1.jpg" alt=" ">
+                        <h4><a href="contact.html" class="title-head">Arrastre
+                                y salvamiento</a></h4>
+                        <p>Este servicio es para cuaqluier vehiculo con capacidad de hasta 10 toneladas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-sm-5 mt-4">
+                    <div class="area-box active">
+                        <img class="img-fluid" src="./assets/images/img3.jpg" alt=" ">
+                        <h4><a href="contact.html" class="title-head">Transportación de
+                                cualquier vehiculo</a></h4>
+                        <p>Podemos tranportar cualquier vehiculo, mercancía, estructura, maquinaria.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-sm-5 mt-4">
+                    <div class="area-box">
+                        <img class="img-fluid" src="./assets/images/img2.jpg" alt=" ">
+                        <h4><a href="contact.html" class="title-head">Maniobras</a></h4>
+                        <p>Tenemos maniobras especializadas en maquinaria y estructuras</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6 grids-feature mt-sm-5 mt-4">
+                    <div class="area-box">
+                        <img class="img-fluid" src="./assets/images/img4.jpg" alt=" ">
+                        <h4><a href="contact.html" class="title-head">Contamos con Grúa plataforma</a></h4>
+                        <p>• Contamos con grúa plataforma con capacidad de 10ton para dos vehículos modelo 2016, camión
+                            plataforma con Grúa articulada (capacidad del camión 15 ton, capacidad de la grúa 4 ton)
+                            modelo 2012, camión torton con sistema roll off con capacidad de 18 ton modelo 2014</p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                    <div class="area-box">
+                        <img class="img-fluid" src="assets/images/img5.jpg" alt=" ">
+                        <h4><a href="#feature" class="title-head">Repair And Renovation</a></h4>
+                        <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                            sed dolor et amet.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                    <div class="area-box">
+                        <img class="img-fluid" src="assets/images/img6.jpg" alt=" ">
+                        <h4><a href="#feature" class="title-head">Chemical Research</a></h4>
+                        <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                            sed dolor et amet.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- //services section -->
+
+    <!-- content with bg -->
+    <section class="w3l-content-bg">
+        <div class="container py-md-5 py-4">
+            <div class="row py-5">
+                <div class="col-md-7">
+                    <div class="left-content-bg">
+                        <p class="text-tag">Grúas Tonatiuh</p>
+                        <h4 class="text-head-content">Puedes contactarnos cuando quieras!</h4>
+                        <a class="btn btn-style mt-4" href="contact.html">Solicitar mi cotización</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //content with bg -->
+
+    <!-- image with content section -->
+    <section class="w3l-content-4 py-5" id="features">
+        <div class="content-4-main py-lg-5 py-md-4 py-2">
+            <div class="container HPCWP">
+                <div class="content-info-in row">
+                    <div class="content-left col-lg-6">
+                        <img src="./assets/images/services.jpg" alt="" class="img-fluid img-responsive">
+                    </div>
+                    <div class="content-right col-lg-6 pl-lg-4 mt-lg-0 mt-md-5 mt-5 align-self">
+                        <div class="row content4-right-grids mb-lg-5 mb-5">
+                            <div class="col-2 content4-right-icon">
+                                <div class="content4-icon">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                            </div>
+                            <div class="col-10 content4-right-info">
+                                <h6><a href="#">
+                                        Calidad</a>
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="row content4-right-grids mb-lg-5 mb-5">
+                            <div class="col-2 content4-right-icon">
+                                <div class="content4-icon">
+                                    <span class="fa fa-cogs"></span>
+                                </div>
+                            </div>
+                            <div class="col-10 content4-right-info">
+                                <h6><a href="#">
+                                        El mejor servicio</a>
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="row content4-right-grids">
+                            <div class="col-2 content4-right-icon">
+                                <div class="content4-icon">
+                                    <i class="fas fa-solar-panel"></i>
+                                </div>
+                            </div>
+                            <div class="col-10 content4-right-info">
+                                <h6><a href="#">
+                                        Ultima Tecnologia</a>
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                    consectetur
+                                    adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //image with content section -->
+
+    <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29-w3l py-5">
+            <div class="container py-4">
+                <div class="row footer-top-29">
+                    <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+                        <div class="footer-logo mb-3">
+                            <a class="footer-brand-logo" href="index.html"><img src="./assets/images/Logo.png"
+                                    id="img-footer" alt=""> </a></a>
+                        </div>
+                        <p>Brindamos el mejor servicio de grúas de arrastre</p>
+                        <div class="main-social-footer-29 mt-4">
+                            <a href="#facebook" class="facebook"><span class="fab fa-facebook-f"></span></a>
+
+                            <a href="#instagram" class="instagram"><span class="fab fa-instagram"></span></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+                        <ul>
+                            <h6 class="footer-title-29">Links</h6>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="about.html">Nosotros</a></li>
+                            <li><a href="#careers">Servicios</a></li>
+                            <li><a href="#blog">Contacto</a></li>
+                            <li class="mb-0"><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5 pl-lg-4">
+                        <h6 class="footer-title-29">Mas Información</h6>
+                        <ul>
+
+                            <li><a href="#privacy">Poliza de Privacidad</a></li>
+                            <li><a href="#terms">Terminos y Condiciones</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5 pl-lg-5">
+                        <!-- <h6 class="footer-title-29">Newsletter </h6>
+                        <form action="#" class="subscribe d-flex align-items-center" method="post">
+                            <input type="email" name="email" placeholder="Email Address" required="">
+                            <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                        </form> -->
+                        <h6 class="footer-title-29 pt-2 mt-4 mb-3">Llamanos: </h6>
+                        <a href="#"><i class="fas fa-phone-square-alt" id="phone"></i>+52 23456790</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="w3l-copyright">
+            <div class="container">
+                <div class="row bottom-copies align-items-center">
+                    <p class="col-lg-8 copy-footer-29">Copyright &copy 2021 Grúas Tonatiuh. Todos los derechos
+                        reservados. &nbsp Diseñado por <a href="https://diego-freelance.web.app/" target="_blank">
+                            Diego Heredia</a></p>
+                    <div class="col-lg-4 footer-list-29 footer-copy-list">
+                        <ul class="text-lg-right">
+
+                            <li><a href="contact.html">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //copyright -->
+    <!-- //footer -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- banner image moving effect -->
+    <script>
+        var lFollowX = 0,
+            lFollowY = 0,
+            x = 0,
+            y = 0,
+            friction = 1 / 30;
+
+        function animate() {
+            x += (lFollowX - x) * friction;
+            y += (lFollowY - y) * friction;
+
+            translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+
+            $('.banner-image').css({
+                '-webit-transform': translate,
+                '-moz-transform': translate,
+                'transform': translate
+            });
+
+            window.requestAnimationFrame(animate);
+        }
+
+        $(window).on('mousemove click', function (e) {
+
+            var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+            var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+            lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+            lFollowY = (10 * lMouseY) / 100;
+
+        });
+
+        animate();
+    </script>
+    <!-- //banner image moving effect -->
+
+    <!-- counter for stats -->
+    <script src="./assets/js/counter.js"></script>
+    <!-- //counter for stats -->
+
+    <!-- magnific popup -->
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+    </script>
+    <!-- //magnific popup -->
+
+    <!-- owl carousel -->
+    <script src="./assets/js/owl.carousel.js"></script>
+
+    <!-- script for tesimonials carousel slider -->
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo2").owlCarousel({
+                loop: true,
+                nav: false,
+                margin: 50,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    736: {
+                        items: 1,
+                        nav: false
+                    },
+                    991: {
+                        items: 2,
+                        margin: 30,
+                        nav: false
+                    },
+                    1080: {
+                        items: 2,
+                        nav: false
+                    }
+                }
+            })
+        })
+    </script>
+    <!-- //script for tesimonials carousel slider -->
+    <!-- owl carousel -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="./assets/js/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed")
+                $('#logo').addClass("img-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed")
+                $('#logo').removeClass("img-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--bootstrap-->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap-->
+    <!-- //Js scripts -->
+</body>
+<!-- main Js -->
+<script src="./assets/js/main.js"></script>
+
+</html>
